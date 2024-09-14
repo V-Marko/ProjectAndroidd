@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:guidelineUseRtl="false"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/N2"
+        android:layout_width="67sp"
+        android:layout_height="67sp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="296dp"
+        android:text="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/N1"
+        android:layout_width="66dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="296dp"
+        android:width="50sp"
+        android:height="50sp"
+        android:text="1"
+        android:textColorLink="#BD4040"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/N7"
+        android:layout_width="67sp"
+        android:layout_height="67sp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="440dp"
+        android:text="7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/N_Enter"
+        android:layout_width="108dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="512dp"
+        android:text="Enter"
+        android:textColor="#FDFDFD"
+        android:textColorHighlight="#D56363"
+        android:textColorHint="#B14141"
+        android:textColorLink="#2B2D30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#B44747" />
+
+    <Button
+        android:id="@+id/N8"
+        android:layout_width="67sp"
+        android:layout_height="67sp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="440dp"
+        android:text="8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/N9"
+        android:layout_width="67sp"
+        android:layout_height="67sp"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="440dp"
+        android:text="9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Timer"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/N3"
+        android:layout_width="67sp"
+        android:layout_height="67sp"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="296dp"
+        android:text="3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SetTimeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="84dp"
+        android:onClick="NewSetTimeActivity"
+        android:text="Set time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/N6"
+        android:layout_width="67sp"
+        android:layout_height="67sp"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="368dp"
+        android:text="6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/N4"
+        android:layout_width="67sp"
+        android:layout_height="67sp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="368dp"
+        android:text="4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/N5"
+        android:layout_width="67sp"
+        android:layout_height="67sp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="368dp"
+        android:text="5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/N0"
+        android:layout_width="100.5sp"
+        android:layout_height="67sp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="512dp"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/CodeNumId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/TimeStopStart"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="16dp"
+        android:text="Time Stop/Start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/blinkDiv"
+        android:layout_width="30dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="204dp"
+        android:background="#00BD00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
